@@ -6,7 +6,8 @@
     @media only screen and (min-width : 320px) {
 
 		body.custom-background {
-	  		background:url(images/camera1w320.jpg);  center center no-repeat;
+	  		background:url(images/camera1w320.jpg);  
+	  		background-size: cover;
 	  		  
 		}	        
 
@@ -17,7 +18,7 @@
 
     	body.custom-background {
 	  		background:url(images/camera1w_540.jpg);  center center no-repeat;
-	  		   
+	  		background-size: cover;   
 		}	        
     }
 
@@ -25,6 +26,6 @@
     @media only screen and (min-width : 768px) {
     	body.custom-background {
 	  		background:url(images/camera1w718.jpg);  center center no-repeat;
-	  		   
+	  		background-size: cover;   
 		}	      
     }
