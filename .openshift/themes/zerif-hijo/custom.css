@@ -16,7 +16,7 @@
     @media only screen and (min-width : 480px) {
 
     	body.custom-background {
-	  		background-image: url('images/camera1_htrvyh_c_scale,w_540.jpg');  center center no-repeat;
+	  		background: url('images/camera1w_540.jpg');  center center no-repeat;
 	  		   
 		}	        
     }
@@ -24,7 +24,7 @@
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
     	body.custom-background {
-	  		background-image:url('images/camera1_htrvyh_c_scale,w_718.jpg');  center center no-repeat;
+	  		background:url(images/camera1w718.jpg);  center center no-repeat;
 	  		   
 		}	      
     }
