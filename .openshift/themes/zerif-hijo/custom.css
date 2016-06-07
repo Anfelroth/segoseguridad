@@ -1,3 +1,30 @@
 .custom-background{
-	background-size: cover;
+	
 }
+
+ /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+
+		body.custom-background {
+	  		background-image: url('/images/camera1w320.jpg');  center center no-repeat;
+	  		background-size: cover;    
+		}	        
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    	body.custom-background {
+	  		background-image: url('/images/camera1_htrvyh_c_scale,w_540.jpg');  center center no-repeat;
+	  		background-size: cover;    
+		}	        
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    	body.custom-background {
+	  		background-image: url('/images/camera1_htrvyh_c_scale,w_718.jpg');  center center no-repeat;
+	  		background-size: cover;    
+		}	      
+    }
