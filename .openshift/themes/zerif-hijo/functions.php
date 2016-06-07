@@ -15,6 +15,6 @@
         } );
     }
 
-    require get_stylsheet_directory() . '/images/*.*';
+    //require get_stylsheet_directory() . '/images/*.*';
 
     ?>
