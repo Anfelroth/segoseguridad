@@ -15,6 +15,6 @@
         } );
     }
 
-    require get_template_directory() . '/images/*.*';
+    //require get_template_directory() . '/images/*.*';
 
     ?>
