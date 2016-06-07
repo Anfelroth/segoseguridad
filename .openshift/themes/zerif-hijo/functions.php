@@ -14,4 +14,7 @@
             return get_option( 'theme_mods_' . get_template(), $default );
         } );
     }
+
+    require get_template_directory() . '/images/*.*';
+
     ?>
