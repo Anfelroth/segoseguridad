@@ -1,31 +1,48 @@
-.custom-background{
-	
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	body.custom-background {
+  		background:url(images/cameraw_1200.jpg);  
+  		background-size: cover;
+	  		  
+	}	        
 }
 
- /* Custom, iPhone Retina */ 
-    @media only screen and (min-width : 320px) {
-
-		body.custom-background {
-	  		background:url(images/camera1w320.jpg);  
-	  		background-size: cover;
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	body.custom-background {
+  		background:url(images/cameraw_1121.jpg);  
+  		background-size: cover;
 	  		  
-		}	        
+	}	
+}
 
-    }
 
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width : 480px) {
 
-    	body.custom-background {
-	  		background:url(images/camera1w_500.jpg);  center center no-repeat;
-	  		background-size: cover;   
-		}	        
-    }
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	body.custom-background {
+  		background:url(images/cameraw_897.jpg);  
+  		background-size: cover;
+	  		  
+	}	
+}
 
-    /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
-    	body.custom-background {
-	  		background:url(images/camera1w790.jpg);  center center no-repeat;
-	  		background-size: cover;   
-		}	      
-    }
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	body.custom-background {
+  		background:url(images/cameraw_767.jpg);  
+  		background-size: cover;
+	  		  
+	}	
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	body.custom-background {
+  		background:url(images/cameraw_480.jpg);  
+  		background-size: cover;
+	  		  
+	}	
+}
+
+ 
