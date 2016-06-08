@@ -1,3 +1,11 @@
+.custom-background{
+	body.custom-background {
+  		background:url(images/cameraw_1200.jpg);  
+  		background-size: cover;
+	  		  
+	}	        
+}
+
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
 	body.custom-background {
