@@ -95,10 +95,7 @@
 		<!-- COLUMN 1 - SKILSS-->
 
 		<div class="col-lg-<?php echo $colCount; ?> col-md-<?php echo $colCount; ?> column zerif-rtl-skills ">
-		  <li class="skill">
-		  	
-			<img src="http://segoseguridad.cf/wp-content/uploads/2016/06/logo-Grande.png">
-		  </li>	
+		  
 
 		</div> <!-- / END SKILLS COLUMN-->
 
