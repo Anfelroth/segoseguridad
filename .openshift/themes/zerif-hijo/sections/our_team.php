@@ -1,3 +1,1 @@
-    <?
-    
-    php echo do_shortcode('[foogallery id="35"]');     ?>
+    <?php echo do_shortcode('[foogallery id="35"]');?>
