@@ -15,6 +15,11 @@
         } );
     }
 
-    //require get_stylsheet_directory() . '/images/*.*';
+    function support_chrome_android($style) {
+    // the $fruits parameter is an array of all fruits from the pippin_show_fruits() function
+ 
+        return $style=background-size:cover;
+    }
+    add_filter('zerif_custom_background_args', 'support_chrome_android');
 
     ?>
