@@ -1,5 +1,5 @@
     <?
-    <echo '<section class="our-team" id="team">';
+    echo '<section class="our-team" id="team">';
 
 				echo '<div class="container">';
 
